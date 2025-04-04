@@ -1,4 +1,4 @@
-[![tests](https://github.com/andrehora/library/actions/workflows/tests.yml/badge.svg)](https://github.com/andrehora/library/actions/workflows/tests.yml)
+[![tests](https://github.com/luk3rr/library_eng_soft_2_ufmg/actions/workflows/tests.yml/badge.svg)](https://github.com/andrehora/library/actions/workflows/tests.yml)
 
 # Library refactoring example
 
@@ -8,7 +8,7 @@ Você deve realizar os 5 commits descritos abaixo e submeter os 5 links dos comm
 
 ### Overview
 
-Primeiramente, explore o código do sistema em [model.py](https://github.com/andrehora/library/blob/main/model.py).
+Primeiramente, explore o código do sistema em [model.py](https://github.com/luk3rr/library_eng_soft_2_ufmg/blob/main/model.py).
 Note que temos três classes: `Book` (livros que podem ser alugados), `Rental` (dados de um aluguel) e `Client` (clientes da biblioteca).
 A classe `Client` possui um método `statement`, responsável por gerar o recibo do aluguel para o cliente:
 
@@ -54,7 +54,7 @@ Reflita sobre os possíveis problemas do método `statement`:
 - Como adicionar um novo tipo filme?
 - Como adicionar um novo tipo de recibo, por exemplo, HTML, CSV, JSON, etc?
 
-Explore também os testes em [tests.py](https://github.com/andrehora/library/blob/main/tests.py) para entender melhor como o sistema funciona.
+Explore também os testes em [tests.py](https://github.com/luk3rr/library_eng_soft_2_ufmg/blob/main/tests.py) para entender melhor como o sistema funciona.
 Por exemplo, o teste `test_rent_regular_book_short_duration`:
 
 ```python
@@ -90,7 +90,7 @@ Caso tenha dúvidas, verifique a documentação do GitHub sobre como [criar fork
 ### Ative o GitHub Actions para rodar os testes a cada commit
 
 Neste projeto, utilizamos o GitHub Actions (ferramenta de CI/CD do GitHub) para executar os testes automaticamente a cada commit.
-Abra o arquivo`.github/workflows/tests.yml` e observe que os testes são executados em três sistemas operacionais (Ubuntu, macOS e Windows) e várias versões da linguagem Python. Veja um exemplo em https://github.com/andrehora/library/actions/runs/14231197771.
+Abra o arquivo`.github/workflows/tests.yml` e observe que os testes são executados em três sistemas operacionais (Ubuntu, macOS e Windows) e várias versões da linguagem Python. Veja um exemplo em https://github.com/luk3rr/library_eng_soft_2_ufmg/actions/runs/14231197771.
 
 Ative o GitHub Actions no seu repositório.
 Para isso, basta ir na aba `Actions` e clicar no botão verde.
